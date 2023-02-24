@@ -16,7 +16,8 @@ CREATE TABLE IF NOT EXISTS mygrocerylist (
 CREATE TABLE IF NOT EXISTS mygrocerylistjson (
     id text not null,
     details jsonb,
-    PRIMARY KEY (id));```
+    PRIMARY KEY (id));
+```
 
 
 # Build and Run
