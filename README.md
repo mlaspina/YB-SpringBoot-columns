@@ -6,10 +6,10 @@ Build the REST API server (written using Spring code) as follows:
 $ mvn -DskipTests package
 ```
 
-Run the REST API server:
+Run the application:
 
 ```
-$ mvn spring-boot:run
+$ java -jar yugabyte-spring-0.0.1-SNAPSHOT.jar (in ./target folder of project)
 ```
 
 **NOTE:** If you need to clean and rebuild the project, run the folowing command before rebuilding.
@@ -18,8 +18,6 @@ $ mvn spring-boot:run
 $ mvn clean
 ```
 
-
-The REST server will run here: [`http://localhost:8080`](http://localhost:8080)
 
 # Customizing
 
