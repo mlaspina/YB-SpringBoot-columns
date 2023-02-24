@@ -1,6 +1,8 @@
+This project is the sample MongoDB Spring app from https://www.mongodb.com/compatibility/spring-boot converted to use columns in Yugabyte YSQL.  Feel free to compare to the MongoDB version.
+
 # Build and run
 
-Build the REST API server (written using Spring code) as follows:
+Build the somple app (written using Spring code) as follows:
 
 ```
 $ mvn -DskipTests package
